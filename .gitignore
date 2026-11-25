@@ -1,0 +1,48 @@
+# Python environments and cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+environments/
+cache/
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+*api_key*
+*credentials*
+*secrets*
+
+# Private evidence and reports
+reports/
+forensic/
+samples/
+*.apk
+*.ipa
+DOJI-*.json
+DOJI-*.pdf
+
+# Development backups
+backups/
+*.bak
+*.backup
+*.before-*
+*-before-*
+*.readiness-backup
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+
+# Accidental development files
+/hashlib
+/re
+/on
+/....
+/=
